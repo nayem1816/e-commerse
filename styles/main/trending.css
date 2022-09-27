@@ -1,11 +1,4 @@
 /* trending */
-.trending h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 45px;
-    color: #272727;
-}
 
 .trending .swiper {
     width: 100%;
@@ -39,9 +32,10 @@
     object-fit: cover;
 } */
 
-.product-image {
-    width: 410px !important;
+.trending-product-image {
+    width: 100% !important;
     height: 301px !important;
+    border-radius: 20px 20px 0 0 !important;
 }
 .text h2 {
     font-style: normal;

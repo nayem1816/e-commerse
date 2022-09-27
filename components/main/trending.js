@@ -39,7 +39,7 @@ const trendingData = [
     },
     {
         id: 5,
-        img: '/images/productImg/product(5).png',
+        img: '/images/productImg/product(3).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -48,7 +48,7 @@ const trendingData = [
     },
     {
         id: 6,
-        img: '/images/productImg/product(6).png',
+        img: '/images/productImg/product(1).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -69,7 +69,7 @@ const trendingData = [
 trending.innerHTML = `
     <div className="">
         <h1 class="mx-2 mx-md-5">Trending Now</h1>
-        <div class="row mx-0 my-4">
+        <div class="mx-0 my-4">
             <div class="swiper trendingSwiper">
                 <div class="swiper-wrapper mx-md-5">
                 ${trendingData
@@ -81,7 +81,7 @@ trending.innerHTML = `
                                         <img
                                             src=${item.img}
                                             alt="image"
-                                            class="img-fluid product-image"
+                                            class="img-fluid trending-product-image"
                                         />
                                         <div class="text p-3">
                                             <h2 class="text-start">

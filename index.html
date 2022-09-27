@@ -18,17 +18,18 @@
             integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
             crossorigin="anonymous"
         />
-        <!-- swiper js css -->
+        <!-- swiper js css cdn -->
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
         />
         <link rel="stylesheet" href="/styles/swiper.css" />
-        <!-- default style -->
+        <!-- stylesheet -->
         <link rel="stylesheet" href="/styles/header.css" />
         <link rel="stylesheet" href="/styles/notification.css" />
         <link rel="stylesheet" href="/styles/banner.css" />
         <link rel="stylesheet" href="/styles/main/trending.css" />
+        <link rel="stylesheet" href="/styles/main/deals.css" />
         <link rel="stylesheet" href="/styles/style.css" />
         <title>iNiLabs</title>
     </head>
@@ -42,19 +43,25 @@
         <!-- main start -->
         <main class="mt-4">
             <div id="trending" class="trending"></div>
+            <div id="deals" class="deals mt-4"></div>
+            <div class="trendingOffer">
+                <div class="">
+                    <h1 class="mx-2 mx-md-5">Trending Offers</h1>
+                </div>
+            </div>
         </main>
 
         <!-- footer start -->
         <footer>
             <h2>Footer</h2>
         </footer>
-        <!-- footer end -->
 
         <!-- component import -->
         <script src="/components/header.js"></script>
         <script src="/components/notification.js"></script>
         <script src="/components/banner.js"></script>
         <script src="/components/main/trending.js"></script>
+        <script src="/components/main/deals.js"></script>
 
         <!-- bootstrap js cdn -->
         <script

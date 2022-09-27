@@ -19,3 +19,12 @@ a {
 a:hover {
     color: #272727;
 }
+
+.trending h1,
+.deals h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #272727;
+}
