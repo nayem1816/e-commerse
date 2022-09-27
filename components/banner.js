@@ -1,7 +1,7 @@
 const banner = document.getElementById('banner');
 
 banner.innerHTML = `
-        <div class="swiper mySwiper">
+        <div class="swiper bannerSwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="row p-0 m-0">
