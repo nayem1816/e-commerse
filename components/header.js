@@ -3,7 +3,7 @@ const header = document.getElementById('header');
 header.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-style">
         <div class="container-fluid d-flex align-items-center">
-            <a class="navbar-brand mx-3" href="/">
+            <a class="navbar-brand" href="/">
                 <img
                     class="logo-image"
                     src="/images/logo/logo.png"
