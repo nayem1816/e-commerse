@@ -1,0 +1,12 @@
+.notification-bar {
+    background-color: #f9faff;
+    padding: 20px 0;
+}
+.notification-bar a {
+    color: #00398f;
+    margin-left: 5px;
+}
+.cross-btn {
+    border: none;
+    background-color: transparent;
+}

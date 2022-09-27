@@ -1,0 +1,43 @@
+.banner {
+    height: 830px;
+}
+.slider-img {
+    height: 796px !important;
+}
+.imageBg-container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.centered img {
+    margin-bottom: 56px;
+}
+.centered h2 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 60px;
+    color: #565656;
+}
+.btn-style {
+    background: transparent;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #565656;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #222222;
+    margin-top: 20px;
+}
