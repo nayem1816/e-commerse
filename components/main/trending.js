@@ -68,7 +68,7 @@ const trendingData = [
 
 trending.innerHTML = `
     <div className="">
-        <h1 class="mx-2 mx-md-5">Trending Now</h1>
+        <h1 class="mx-2 mx-md-5 title">Trending Now</h1>
         <div class="mx-0 my-4">
             <div class="swiper trendingSwiper">
                 <div class="swiper-wrapper mx-md-5">

@@ -2,7 +2,7 @@ const customerSay = document.getElementById('customerSay');
 
 customerSay.innerHTML = `
 <div class="">
-                    <h1 class="mx-2 mx-md-5">What Our Customer Says</h1>
+                    <h1 class="mx-2 mx-md-5 title">What Our Customer Says</h1>
                     <div class="my-4 customer-say-slide-part mySwiper">
                         <div class="swiper customerSaySwiper">
                             <div class="swiper-wrapper">

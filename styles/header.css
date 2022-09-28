@@ -45,3 +45,10 @@ header {
     cursor: pointer;
 }
 /* header style end */
+
+/* responsive */
+@media (min-width: 992px) and (max-width: 1130px) {
+    .nav-text {
+        font-size: 14px;
+    }
+}

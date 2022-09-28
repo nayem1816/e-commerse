@@ -20,8 +20,7 @@ a:hover {
     color: #272727;
 }
 
-.trending h1,
-.deals h1 {
+.title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -43,4 +42,11 @@ a:hover {
     margin-bottom: 30px;
     border: 1px solid #222222;
     margin-top: 20px;
+}
+
+/* responsive */
+@media (min-width: 250px) and (max-width: 600px) {
+    .title {
+        font-size: 24px;
+    }
 }

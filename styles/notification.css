@@ -1,6 +1,7 @@
 .notification-bar {
     background-color: #f9faff;
     padding: 20px 0;
+    text-align: center;
 }
 .notification-bar a {
     color: #00398f;

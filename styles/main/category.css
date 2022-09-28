@@ -20,3 +20,13 @@
     font-size: 18px;
     line-height: 22px;
 }
+
+/* responsive */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .cate-text h3 {
+        font-size: 18px;
+    }
+    .cate-text p {
+        font-size: 14px;
+    }
+}

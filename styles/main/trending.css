@@ -73,3 +73,39 @@
 
     color: #0a8200;
 }
+
+/* responsive */
+@media (min-width: 1280px) and (max-width: 1404px) {
+    .text h2 {
+        font-size: 18px;
+    }
+    .brand p {
+        font-size: 16px;
+    }
+    .current-price {
+        font-size: 18px;
+    }
+    .old-price {
+        font-size: 16px;
+    }
+    .discount {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1805px) {
+    .text h2 {
+        font-size: 20px;
+    }
+    .brand p {
+        font-size: 16px;
+    }
+    .current-price {
+        font-size: 18px;
+    }
+    .old-price {
+        font-size: 16px;
+    }
+    .discount {
+        font-size: 16px;
+    }
+}

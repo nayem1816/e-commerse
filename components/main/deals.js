@@ -68,7 +68,7 @@ const dealsData = [
 
 deals.innerHTML = `
 <div class="">
-<h1 class="mx-2 mx-md-5">Deals of the Day</h1>
+<h1 class="mx-2 mx-md-5 title">Deals of the Day</h1>
 <div class="mx-0 my-4">
     <div class="swiper dealsSwiper">
         <div class="swiper-wrapper mx-2 mx-md-5">

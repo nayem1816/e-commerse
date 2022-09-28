@@ -1,9 +1,9 @@
 const header = document.getElementById('header');
 
 header.innerHTML = `
-    <nav class="navbar navbar-expand-lg navbar-style">
+    <nav class="navbar navbar-expand-lg navbar-style mx-0 mx-lg-5">
         <div class="container-fluid d-flex align-items-center">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand ms-2 ms-lg-0" href="/">
                 <img
                     class="logo-image"
                     src="/images/logo/logo.png"
@@ -22,7 +22,7 @@ header.innerHTML = `
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="row w-100 d-flex gap-3 gap-md-0">
+                <div class="row w-100 d-flex gap-3 gap-md-0 py-3 py-lg-0">
                     <div
                         class="col-lg-6 d-flex justify-content-center order-2 order-lg-1"
                     >

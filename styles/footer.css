@@ -20,12 +20,14 @@ footer {
     line-height: 30px;
     color: #ffffff;
 }
+.footer-bottom a,
 .footer-category a {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
+.footer-bottom a:hover,
 .footer-category a:hover {
     text-decoration: underline;
 }
@@ -42,4 +44,15 @@ footer {
 
 :focus-visible {
     outline: none !important;
+}
+
+/* responsive */
+@media (min-width: 250px) and (max-width: 425px) {
+    .footer-logo img {
+        width: 54px;
+        height: 48px;
+    }
+    .footer-logo h2 {
+        font-size: 44px;
+    }
 }

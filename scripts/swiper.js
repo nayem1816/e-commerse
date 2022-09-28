@@ -1,11 +1,16 @@
 var bannerSwiper = new Swiper('.bannerSwiper', {
+    loop: true,
+    loopFillGroupWithBlank: true,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicBullets: true,
     },
 });
 
 var trendingSwiper = new Swiper('.trendingSwiper', {
+    loop: true,
+    loopFillGroupWithBlank: true,
     slidesPerView: 1,
     spaceBetween: 10,
     breakpoints: {

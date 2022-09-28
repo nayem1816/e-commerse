@@ -3,7 +3,7 @@ const trendingOffer = document.getElementById('trendingOffer');
 trendingOffer.innerHTML = `
 
     <div class="">
-        <h1 class="mx-2 mx-md-5">Trending Offers</h1>
+        <h1 class="mx-2 mx-md-5 title">Trending Offers</h1>
         <div class="my-4 trendingOffer-slide-part">
             <div class="swiper trendingOfferSwiper">
                 <div class="swiper-wrapper">
