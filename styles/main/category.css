@@ -1,0 +1,22 @@
+.category-banner {
+    position: relative;
+    color: white;
+}
+
+.cate-text {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.cate-text h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.cate-text p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}

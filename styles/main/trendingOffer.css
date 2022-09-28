@@ -43,8 +43,8 @@
     width: 70%;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.trendingOffer-slide-part .swiper-button-next,
+.trendingOffer-slide-part .swiper-button-prev {
     top: 50%;
     transform: translateY(-50%);
     background: #272727cc;
@@ -57,8 +57,8 @@
     z-index: 999;
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
+.trendingOffer-slide-part .swiper-button-next::after,
+.trendingOffer-slide-part .swiper-button-prev::after {
     font-size: 16px;
     font-weight: bold;
 }

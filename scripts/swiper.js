@@ -63,10 +63,6 @@ var swiper = new Swiper('.mySwiper', {
     slidesPerView: 'auto',
     centeredSlides: true,
     spaceBetween: 10,
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
     initialSlide: 1,
     loop: true,
     loopFillGroupWithBlank: true,
