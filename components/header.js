@@ -1,5 +1,33 @@
 const header = document.getElementById('header');
 
+const menuData = [
+    {
+        id: 1,
+        name: 'Man',
+        link: '#man',
+    },
+    {
+        id: 2,
+        name: 'Women',
+        link: '#women',
+    },
+    {
+        id: 3,
+        name: 'Kids',
+        link: '#kids',
+    },
+    {
+        id: 4,
+        name: 'Shop',
+        link: '#shop',
+    },
+    {
+        id: 4,
+        name: 'Contact Us',
+        link: '#contact',
+    },
+];
+
 header.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-style mx-0 mx-lg-5">
         <div class="container-fluid d-flex align-items-center">
@@ -29,46 +57,20 @@ header.innerHTML = `
                         <ul
                             class="navbar-nav d-flex align-items-center gap-3"
                         >
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link nav-text"
-                                    href="/man"
-                                >
-                                    Man
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link nav-text"
-                                    href="/woman"
-                                >
-                                    Woman
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link nav-text"
-                                    href="/kids"
-                                >
-                                    Kids
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link nav-text"
-                                    href="/shop"
-                                >
-                                    Shop
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link nav-text"
-                                    href="/contact"
-                                >
-                                    Contact us
-                                </a>
-                            </li>
+                        ${menuData
+                            .map(
+                                (item) => `
+                                        <li class="nav-item">
+                                            <a
+                                                class="nav-link nav-text"
+                                                href="${item.link}"
+                                            >
+                                                ${item.name}
+                                            </a>
+                                        </li>
+                                    `
+                            )
+                            .join('')}
                         </ul>
                     </div>
 

@@ -5,7 +5,7 @@ const handleCloseBtn = () => {
 };
 
 notification.innerHTML = `
-    <div class="px-5 d-block align-items-center">
+    <div class="px-5 d-grid d-md-block align-items-center">
         <p class="d-inline">
             Invite Friends and get 50% off on your next purchase
             <a href="#">Invite Now</a>
