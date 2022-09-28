@@ -24,7 +24,7 @@ header.innerHTML = `
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="row w-100 d-flex gap-3 gap-md-0">
                     <div
-                        class="col-md-6 d-flex justify-content-center order-2 order-md-1"
+                        class="col-lg-6 d-flex justify-content-center order-2 order-lg-1"
                     >
                         <ul
                             class="navbar-nav d-flex align-items-center gap-3"
@@ -73,7 +73,7 @@ header.innerHTML = `
                     </div>
 
                     <div
-                        class="col-md-3 d-flex align-items-center justify-content-center order-sm-1 order-md-2"
+                        class="col-lg-3 d-flex align-items-center justify-content-center order-1  order-lg-2"
                     >
                         <div class="search d-flex align-items-center">
                             <input
@@ -92,7 +92,7 @@ header.innerHTML = `
                     </div>
 
                     <div
-                        class="col-md-3 d-flex justify-content-center justify-content-md-end order-3"
+                        class="col-lg-3 d-flex justify-content-center justify-content-lg-end order-3"
                     >
                         <ul
                             class="navbar-nav d-flex align-items-center gap-2"

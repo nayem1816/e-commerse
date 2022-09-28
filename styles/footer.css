@@ -1,0 +1,45 @@
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-logo img {
+    width: 76px;
+    height: 64px;
+}
+.footer-logo h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+}
+.footer-category h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.footer-category a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.footer-category a:hover {
+    text-decoration: underline;
+}
+.in-touch-footer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+:focus-visible {
+    outline: none !important;
+}
