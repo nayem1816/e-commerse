@@ -59,7 +59,38 @@ var dealsSwiper = new Swiper('.dealsSwiper', {
     },
 });
 
-var swiper = new Swiper('.mySwiper', {
+var trendingOfferSwiper = new Swiper('.trendingOfferSwiper', {
+    slidesPerView: 'auto',
+    centeredSlides: true,
+    spaceBetween: 10,
+    initialSlide: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        1024: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1280: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+    },
+});
+
+var customerSaySwiper = new Swiper('.customerSaySwiper', {
     slidesPerView: 'auto',
     centeredSlides: true,
     spaceBetween: 10,
