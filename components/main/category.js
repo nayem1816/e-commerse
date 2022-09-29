@@ -9,7 +9,7 @@ category.innerHTML = `
                     <div class="category-banner">
                         <img
                             class="img-fluid"
-                            src="/images/category/category(10).png"
+                            src="images/category/category(10).png"
                             alt=""
                         />
                         <div class="cate-text ms-2">
@@ -18,7 +18,7 @@ category.innerHTML = `
                                 Explore
                                 <span
                                     ><img
-                                        src="/images/icons/arrow1.png"
+                                        src="images/icons/arrow1.png"
                                         alt=""
                                     />
                                 </span>
@@ -34,7 +34,7 @@ category.innerHTML = `
                             <div class="category-banner">
                                 <img
                                     class="img-fluid"
-                                    src="/images/category/category(5).png"
+                                    src="images/category/category(5).png"
                                     alt=""
                                 />
                                 <div class="cate-text">
@@ -42,7 +42,7 @@ category.innerHTML = `
                                     <p>
                                         Explore<span
                                             ><img
-                                                src="/images/icons/arrow1.png"
+                                                src="images/icons/arrow1.png"
                                                 alt=""
                                             />
                                         </span>
@@ -56,7 +56,7 @@ category.innerHTML = `
                             <div class="category-banner">
                                 <img
                                     class="img-fluid"
-                                    src="/images/category/category(6).png"
+                                    src="images/category/category(6).png"
                                     alt=""
                                 />
                                 <div class="cate-text">
@@ -64,7 +64,7 @@ category.innerHTML = `
                                     <p>
                                         Explore<span
                                             ><img
-                                                src="/images/icons/arrow1.png"
+                                                src="images/icons/arrow1.png"
                                                 alt=""
                                             />
                                         </span>
@@ -82,7 +82,7 @@ category.innerHTML = `
                             <div class="category-banner">
                                 <img
                                     class="img-fluid h-auto h-md-100"
-                                    src="/images/category/category(7).png"
+                                    src="images/category/category(7).png"
                                     alt=""
                                 />
                                 <div class="cate-text">
@@ -90,7 +90,7 @@ category.innerHTML = `
                                     <p>
                                         Explore<span
                                             ><img
-                                                src="/images/icons/arrow1.png"
+                                                src="images/icons/arrow1.png"
                                                 alt=""
                                             />
                                         </span>
@@ -104,7 +104,7 @@ category.innerHTML = `
                             <div class="category-banner">
                                 <img
                                     class="img-fluid"
-                                    src="/images/category/category(8).png"
+                                    src="images/category/category(8).png"
                                     alt=""
                                 />
                                 <div class="cate-text">
@@ -112,7 +112,7 @@ category.innerHTML = `
                                     <p>
                                         Explore<span
                                             ><img
-                                                src="/images/icons/arrow1.png"
+                                                src="images/icons/arrow1.png"
                                                 alt=""
                                             />
                                         </span>
@@ -126,7 +126,7 @@ category.innerHTML = `
                             <div class="category-banner">
                                 <img
                                     class="img-fluid"
-                                    src="/images/category/category(9).png"
+                                    src="images/category/category(9).png"
                                     alt=""
                                 />
                                 <div class="cate-text">
@@ -134,7 +134,7 @@ category.innerHTML = `
                                     <p>
                                         Explore<span
                                             ><img
-                                                src="/images/icons/arrow1.png"
+                                                src="images/icons/arrow1.png"
                                                 alt=""
                                             />
                                         </span>

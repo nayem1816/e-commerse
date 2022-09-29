@@ -13,7 +13,7 @@ banner.innerHTML = `
                             <div class="col-md-6 d-none d-md-block p-0 m-0">
                                 <img
                                     class="slider-img img-fluid"
-                                    src="/images/slider/imageWoman.png"
+                                    src="images/slider/imageWoman.png"
                                     alt=""
                                 />
                             </div>
@@ -22,12 +22,12 @@ banner.innerHTML = `
                             >
                                 <img
                                     class="img-fluid w-100 slider-img"
-                                    src="/images/slider/imageBg.png"
+                                    src="images/slider/imageBg.png"
                                     alt=""
                                 />
                                 <div class="centered">
                                     <img
-                                        src="/images/slider/imageText.png"
+                                        src="images/slider/imageText.png"
                                         alt=""
                                         class="img-fluid flex-center"
                                     />

@@ -23,7 +23,7 @@ trendingOffer.innerHTML = `
                             >
                                 <img
                                     class="img-fluid my-4"
-                                    src="/images/productImg/levis.png"
+                                    src="images/productImg/levis.png"
                                     alt=""
                                 />
                                 <h2 class="my-5">
@@ -39,7 +39,7 @@ trendingOffer.innerHTML = `
                         >
                             <img
                                 class="img-fluid right-img"
-                                src="/images/productImg/trendingOffer1.png"
+                                src="images/productImg/trendingOffer1.png"
                                 alt=""
                             />
                         </div>

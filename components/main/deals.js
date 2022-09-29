@@ -3,37 +3,37 @@ const deals = document.getElementById('deals');
 const dealsData = [
     {
         id: 1,
-        img: '/images/productImg/product8.png',
+        img: 'images/productImg/product8.png',
         title: 'Best of Styles',
     },
     {
         id: 2,
-        img: '/images/productImg/product9.png',
+        img: 'images/productImg/product9.png',
         title: 'Best of Styles',
     },
     {
         id: 3,
-        img: '/images/productImg/product10.png',
+        img: 'images/productImg/product10.png',
         title: 'Best of Styles',
     },
     {
         id: 4,
-        img: '/images/productImg/product8.png',
+        img: 'images/productImg/product8.png',
         title: 'Best of Styles',
     },
     {
         id: 5,
-        img: '/images/productImg/product9.png',
+        img: 'images/productImg/product9.png',
         title: 'Best of Styles',
     },
     {
         id: 6,
-        img: '/images/productImg/product10.png',
+        img: 'images/productImg/product10.png',
         title: 'Best of Styles',
     },
     {
         id: 7,
-        img: '/images/productImg/product8.png',
+        img: 'images/productImg/product8.png',
         title: 'Best of Styles',
     },
 ];
@@ -60,7 +60,7 @@ deals.innerHTML = `
                                             >
                                                 <img
                                                     class="levisImg mb-4 mt-1 img-fluid"
-                                                    src="/images/productImg/levis.png"
+                                                    src="images/productImg/levis.png"
                                                     alt=""
                                                 />
                                                 <h2 class="text-center my-2">

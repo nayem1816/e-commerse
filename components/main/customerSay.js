@@ -17,30 +17,30 @@ customerSay.innerHTML = `
                             >
                                 <img
                                     class="img-fluid my-3"
-                                    src="/images/icons/user2.png"
+                                    src="images/icons/user2.png"
                                     alt=""
                                 />
                                 <p
                                     class="customer-star my-3 d-flex align-items-center justify-content-center"
                                 >
                                     <img
-                                        src="/images/icons/star.png"
+                                        src="images/icons/star.png"
                                         alt=""
                                     />
                                     <img
-                                        src="/images/icons/star.png"
+                                        src="images/icons/star.png"
                                         alt=""
                                     />
                                     <img
-                                        src="/images/icons/star.png"
+                                        src="images/icons/star.png"
                                         alt=""
                                     />
                                     <img
-                                        src="/images/icons/star.png"
+                                        src="images/icons/star.png"
                                         alt=""
                                     />
                                     <img
-                                        src="/images/icons/star1.png"
+                                        src="images/icons/star1.png"
                                         alt=""
                                     />
                                     <span class="ms-3">4.4</span>

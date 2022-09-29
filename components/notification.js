@@ -11,7 +11,7 @@ notification.innerHTML = `
             <a href="#">Invite Now</a>
         </p>
         <button onclick="handleCloseBtn()" id="cross-btn" class="cross-btn float-end">
-            <img src="/images/icons/cros.png" alt="cross" />
+            <img src="images/icons/cros.png" alt="cross" />
         </button>
     </div>
 `;

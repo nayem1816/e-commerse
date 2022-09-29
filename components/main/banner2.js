@@ -4,13 +4,13 @@ banner2.innerHTML = `
     <div class="banner2-container py-3">
         <img
             class="img-fluid banner2-bg-img"
-            src="/images/productImg/banner2.png"
+            src="images/productImg/banner2.png"
             alt=""
         />
         <div class="banner2-text">
             <img
                 class="img-fluid mb-4"
-                src="/images/productImg/forever.png"
+                src="images/productImg/forever.png"
                 alt=""
             />
             <h2 class="my-4">Big Fashion Festival</h2>

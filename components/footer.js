@@ -114,7 +114,7 @@ const moreData = [
 footer.innerHTML = `
     <div class="py-3 ">
         <div class="footer-logo d-flex align-items-center gap-4 mx-lg-5 justify-content-center justify-content-lg-start">
-            <img src="/images/logo/footerLogo.png" alt="logo" />
+            <img src="images/logo/footerLogo.png" alt="logo" />
             <h2 class="mt-3">Globex</h2>
         </div>
         <div class="my-5 mx-0 mx-lg-5">
@@ -231,7 +231,7 @@ footer.innerHTML = `
                             >
                                 <span class="bg-transparent text-white">
                                     <img
-                                        src="/images/icons/mail.png"
+                                        src="images/icons/mail.png"
                                         alt="mail"
                                     />
                                 </span>
@@ -265,25 +265,25 @@ footer.innerHTML = `
                     >
                         <a href="#">
                             <img
-                                src="/images/social/facebook.png"
+                                src="images/social/facebook.png"
                                 alt="facebook"
                             />
                         </a>
                         <a href="#">
                             <img
-                                src="/images/social/instagram.png"
+                                src="images/social/instagram.png"
                                 alt="instagram"
                             />
                         </a>
                         <a href="#">
                             <img
-                                src="/images/social/whatsapp.png"
+                                src="images/social/whatsapp.png"
                                 alt="whatsapp"
                             />
                         </a>
                         <a href="#">
                             <img
-                                src="/images/social/twitter.png"
+                                src="images/social/twitter.png"
                                 alt="twitter"
                             />
                         </a>

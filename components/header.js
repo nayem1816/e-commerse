@@ -34,7 +34,7 @@ header.innerHTML = `
             <a class="navbar-brand ms-2 ms-lg-0" href="/">
                 <img
                     class="logo-image"
-                    src="/images/logo/logo.png"
+                    src="images/logo/logo.png"
                     alt="logo"
                 />
             </a>
@@ -86,7 +86,7 @@ header.innerHTML = `
                             />
                             <button class="">
                                 <img
-                                    src="/images/icons/search.png"
+                                    src="images/icons/search.png"
                                     alt="search"
                                 />
                             </button>
@@ -102,7 +102,7 @@ header.innerHTML = `
                             <li class="nav-item icon">
                                 <a class="nav-link" href="#">
                                     <img
-                                        src="/images/icons/love.png"
+                                        src="images/icons/love.png"
                                         alt="favorite"
                                     />
                                 </a>
@@ -110,7 +110,7 @@ header.innerHTML = `
                             <li class="nav-item icon">
                                 <a class="nav-link" href="#">
                                     <img
-                                        src="/images/icons/cart.png"
+                                        src="images/icons/cart.png"
                                         alt="cart"
                                     />
                                 </a>
@@ -121,7 +121,7 @@ header.innerHTML = `
                                     href="#"
                                 >
                                     <img
-                                        src="/images/icons/user.png"
+                                        src="images/icons/user.png"
                                         alt="user"
                                     />
                                     <span class="nav-text"

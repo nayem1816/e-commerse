@@ -3,7 +3,7 @@ const trending = document.getElementById('trending');
 const trendingData = [
     {
         id: 1,
-        img: '/images/productImg/product(1).png',
+        img: 'images/productImg/product(1).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -12,7 +12,7 @@ const trendingData = [
     },
     {
         id: 2,
-        img: '/images/productImg/product(2).png',
+        img: 'images/productImg/product(2).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -21,7 +21,7 @@ const trendingData = [
     },
     {
         id: 3,
-        img: '/images/productImg/product(3).png',
+        img: 'images/productImg/product(3).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -30,7 +30,7 @@ const trendingData = [
     },
     {
         id: 4,
-        img: '/images/productImg/product(7).png',
+        img: 'images/productImg/product(7).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -39,7 +39,7 @@ const trendingData = [
     },
     {
         id: 5,
-        img: '/images/productImg/product(3).png',
+        img: 'images/productImg/product(3).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -48,7 +48,7 @@ const trendingData = [
     },
     {
         id: 6,
-        img: '/images/productImg/product(1).png',
+        img: 'images/productImg/product(1).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -57,7 +57,7 @@ const trendingData = [
     },
     {
         id: 7,
-        img: '/images/productImg/product(7).png',
+        img: 'images/productImg/product(7).png',
         title: 'Womens Denim Jacket',
         rating: '4.2',
         price: '$ 50.00',
@@ -97,7 +97,7 @@ trending.innerHTML = `
                                                     <p>4.2</p>
                                                     <img
                                                         class="img-fluid ms-2"
-                                                        src="/images/icons/star.png"
+                                                        src="images/icons/star.png"
                                                         alt=""
                                                     />
                                                 </div>
