@@ -122,100 +122,96 @@ footer.innerHTML = `
                 class="row footer-category p-0 mx-2 mx-lg-5"
                 style="row-gap: 20px"
             >
-                <div class="col-lg-10">
-                    <div class="row gap-2" style="row-gap: 20px">
-                        <div class="col-lg-2">
-                            <div class="text-center text-lg-start">
-                                <h3>Womem</h3>
-                                <ul class="list-unstyled">
-                                ${womenData
-                                    .map(
-                                        (item) => `
-                                                <li class="my-2">
-                                                    <a href="#" class="text-white">
-                                                        ${item.title}
-                                                    </a>
-                                                </li>
-                                            `
-                                    )
-                                    .join('')}
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="text-center text-lg-start">
-                                <h3>Men</h3>
-                                <ul class="list-unstyled">
-                                ${manData
-                                    .map(
-                                        (item) => `
-                                                <li class="my-2">
-                                                    <a href="#" class="text-white">
-                                                        ${item.title}
-                                                    </a>
-                                                </li>
-                                            `
-                                    )
-                                    .join('')}
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="text-center text-lg-start">
-                                <h3>Kids</h3>
-                                <ul class="list-unstyled">
-                                ${kidsData
-                                    .map(
-                                        (item) => `
-                                                <li class="my-2">
-                                                    <a href="#" class="text-white">
-                                                        ${item.title}
-                                                    </a>
-                                                </li>
-                                            `
-                                    )
-                                    .join('')}
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="text-center text-lg-start">
-                                <h3>Shopping</h3>
-                                <ul class="list-unstyled">
-                                ${shopData
-                                    .map(
-                                        (item) => `
-                                                <li class="my-2">
-                                                    <a href="#" class="text-white">
-                                                        ${item.title}
-                                                    </a>
-                                                </li>
-                                            `
-                                    )
-                                    .join('')}
-                                </ul>
-                            </div>
-                        </div>
-                        <div
-                            class="col-lg-2 d-flex justify-content-center justify-content-lg-end"
-                        >
-                            <div class="text-center text-lg-start">
-                                <h3>More links</h3>
-                                <ul class="list-unstyled">
-                                ${moreData
-                                    .map(
-                                        (item) => `
-                                                <li class="my-2">
-                                                    <a href="#" class="text-white">
-                                                        ${item.title}
-                                                    </a>
-                                                </li>
-                                            `
-                                    )
-                                    .join('')}
-                                </ul>
-                            </div>
-                        </div>
+                <div class="col-lg-2">
+                    <div class="text-center text-lg-start">
+                        <h3>Womem</h3>
+                        <ul class="list-unstyled">
+                        ${womenData
+                            .map(
+                                (item) => `
+                                        <li class="my-2">
+                                            <a href="#" class="text-white">
+                                                ${item.title}
+                                            </a>
+                                        </li>
+                                    `
+                            )
+                            .join('')}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-center text-lg-start">
+                        <h3>Men</h3>
+                        <ul class="list-unstyled">
+                        ${manData
+                            .map(
+                                (item) => `
+                                        <li class="my-2">
+                                            <a href="#" class="text-white">
+                                                ${item.title}
+                                            </a>
+                                        </li>
+                                    `
+                            )
+                            .join('')}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-center text-lg-start">
+                        <h3>Kids</h3>
+                        <ul class="list-unstyled">
+                        ${kidsData
+                            .map(
+                                (item) => `
+                                        <li class="my-2">
+                                            <a href="#" class="text-white">
+                                                ${item.title}
+                                            </a>
+                                        </li>
+                                    `
+                            )
+                            .join('')}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-center text-lg-start">
+                        <h3>Shopping</h3>
+                        <ul class="list-unstyled">
+                        ${shopData
+                            .map(
+                                (item) => `
+                                        <li class="my-2">
+                                            <a href="#" class="text-white">
+                                                ${item.title}
+                                            </a>
+                                        </li>
+                                    `
+                            )
+                            .join('')}
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-2"
+                >
+                    <div class="text-center text-lg-start">
+                        <h3>More links</h3>
+                        <ul class="list-unstyled">
+                        ${moreData
+                            .map(
+                                (item) => `
+                                        <li class="my-2">
+                                            <a href="#" class="text-white">
+                                                ${item.title}
+                                            </a>
+                                        </li>
+                                    `
+                            )
+                            .join('')}
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 in-touch-footer">
