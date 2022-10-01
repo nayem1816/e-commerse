@@ -1,6 +1,7 @@
 /* header style start */
 header {
     height: 80px;
+    margin-bottom: -2px;
 }
 .logo-image {
     height: 48px;

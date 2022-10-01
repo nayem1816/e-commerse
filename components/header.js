@@ -29,8 +29,8 @@ const menuData = [
 ];
 
 header.innerHTML = `
-    <nav class="navbar navbar-expand-lg navbar-style mx-0 mx-lg-5">
-        <div class="container-fluid d-flex align-items-center">
+    <nav class="navbar navbar-expand-lg navbar-style position-fixed w-100 shadow-sm">
+        <div class="container-fluid d-flex align-items-center mx-0 mx-lg-5 ">
             <a class="navbar-brand ms-2 ms-lg-0" href="/">
                 <img
                     class="logo-image"
